@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className="text-gray-600 body-font bg-gray-700 animate-bg-change text-gray-900 animate-text-change">
+    <section className=" body-font  animate-bg-change text-gray-900 animate-text-change">
       <div className="container mx-auto flex px-5 py-24 sm:mt-20 flex-col md:flex-row items-center">
         {/* Text and Description */}
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -28,15 +28,20 @@ const Hero = () => {
         {/* Image Section */}
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex justify-center items-center">
           {/* Circular Image Container */}
-          <div className="w-40 h-40 md:w-96 md:h-96 overflow-hidden rounded-full border-4 border-gray-900 relative animate-rotate-border">
+          <div className="w-40 h-40 md:w-96 md:h-96 relative overflow-hidden rounded-full">
+  {/* Rotating & Color-Changing Border */}
+  <div className="absolute inset-0 border-4 rounded-full animate-rotate-color"></div>
+  
+  {/* Static Image */}
   <Image
-    className="object-cover object-center w-full h-full"
+    className="object-cover object-center w-full h-full rounded-full"
     alt="hero"
-    src="/heropic.webp"
-    width={384} // You can adjust the width and height for optimization
+    src="/heropic.png"
+    width={384}
     height={384}
   />
 </div>
+
 
         </div>
       </div>

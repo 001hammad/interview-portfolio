@@ -3,6 +3,26 @@
 @tailwind utilities;
 
 
+@keyframes rotate-color {
+  0% {
+    transform: rotate(0deg);
+    border-color: black;
+  }
+  33% {
+    border-color: gray;
+  }
+  66% {
+    border-color: yellow;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-color: black;
+  }
+}
+
+.animate-rotate-color {
+  animation: rotate-color 5s linear infinite;
+}
 
 
 
@@ -108,7 +128,7 @@
     color: white; /* Text is white when the background is gray */
   }
   50% {
-    color: black; /* Text becomes black when the background is yellow */
+    color: yellow; /* Text becomes black when the background is yellow */
   }
   100% {
     color: white; /* Text returns to white when the background is gray */

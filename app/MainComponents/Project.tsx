@@ -13,7 +13,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg shadow-md">
+          <div className="bg-yellow-400 shadow-yellow-400 transition-transform duration-300 hover:-translate-y-4 p-6 rounded-lg shadow-md">
             <Image
               className="w-full h-56 object-cover mb-4 rounded"
               src="/todopic.jpg"
@@ -27,7 +27,7 @@ const Projects = () => {
               View Project
             </Link>
           </div>
-          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg shadow-md">
+          <div className="bg-yellow-400 shadow-yellow-400 p-6 transition-transform duration-300 hover:-translate-y-4 rounded-lg shadow-md">
             <Image
               className="w-full h-56 object-cover mb-4 rounded"
               src="/timer.png"
@@ -41,7 +41,7 @@ const Projects = () => {
               View Project
             </Link>
           </div>
-          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg shadow-md">
+          <div className="bg-yellow-400 shadow-yellow-400 p-6 transition-transform duration-300 hover:-translate-y-4 rounded-lg shadow-md">
             <Image
               className="w-full h-56 object-cover mb-4 rounded"
               src="/food-delivery.jpg"
@@ -55,6 +55,55 @@ const Projects = () => {
               View Project
             </Link>
           </div>
+          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg transition-transform duration-300 hover:-translate-y-4 shadow-md">
+            <Image
+              className="w-full h-56 object-cover mb-4 rounded"
+              src="/facebook.jpg"
+              alt="Food Delivery Website"
+              width={640} // Adjust as needed
+              height={224} // Adjust as needed
+            />
+            <h3 className="text-xl font-semibold text-gray-900">Facebook Login Form</h3>
+            <p className="text-gray-600 mb-4">This website design like a foodpanda web i design and developed with some functionalty..</p>
+            <Link href="https://signup-login-form-rho.vercel.app/" target="_blank" className="text-indigo-500 hover:text-indigo-600 hover:underline">
+              View Project
+            </Link>
+          </div>
+          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg shadow-md  transition-transform duration-300 hover:-translate-y-4">
+            <Image
+              className="w-full h-56 object-cover mb-4 rounded"
+              src="/resume.jpg"
+              alt="Food Delivery Website"
+              width={640} // Adjust as needed
+              height={224} // Adjust as needed
+            />
+            <h3 className="text-xl font-semibold text-gray-900">Resume Builder</h3>
+            <p className="text-gray-600 mb-4">This website design like a foodpanda web i design and developed with some functionalty..</p>
+            <Link href="https://pdf-edit-resume.vercel.app/" target="_blank" className="text-indigo-500 hover:text-indigo-600 hover:underline">
+              View Project
+            </Link>
+          </div>
+          <div className="bg-yellow-400 shadow-yellow-400 p-6 rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-4">
+  <Image
+    className="w-full h-56 object-cover mb-4 rounded"
+    src="/calcu.jpg"
+    alt="Food Delivery Website"
+    width={640}
+    height={224}
+  />
+  <h3 className="text-xl font-semibold text-gray-900">Simple Calculator</h3>
+  <p className="text-gray-600 mb-4">
+    This website design like a foodpanda web I designed and developed with some functionality.
+  </p>
+  <Link
+    href="https://simple-calculator-a.vercel.app/"
+    target="_blank"
+    className="text-indigo-500 hover:text-indigo-600 hover:underline"
+  >
+    View Project
+  </Link>
+</div>
+
           {/* Add more projects */}
         </div>
       </div>
