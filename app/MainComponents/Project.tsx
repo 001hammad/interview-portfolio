@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-white mb-4">My Projects</h2>
           <p className="leading-relaxed text-lg text-gray-100">
-            Check out some of the amazing projects I've worked on. Each one reflects my dedication and skill in creating high-quality web applications.
+            Check out some of the amazing projects I&apos;ve worked on. Each one reflects my dedication and skill in creating high-quality web applications.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
